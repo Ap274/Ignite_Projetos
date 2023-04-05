@@ -1,0 +1,56 @@
+.tasks {
+    background: var(--gray-500);
+    width: 100%;
+    border: 1px solid var(--gray-400);
+    padding: 1rem;
+    display: flex;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.tasks p {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    margin-right: auto;
+    word-break: break-all;
+}
+
+.text {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.text2 {
+    color: var(--gray-100);
+}
+
+.check {
+    min-width: 1.0906rem;
+    height: 1.0906rem;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.check div {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+}
+
+.check svg {
+    width: 100%;
+    height: 100%;
+    color: var(--purple);
+}
+
+.delete { 
+    background: none;
+    border: none;
+    color: var(--gray-300);
+    cursor: pointer;
+}
